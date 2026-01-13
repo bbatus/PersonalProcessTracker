@@ -1,0 +1,19 @@
+Welcome to Personal Process Tracker!
+
+Hi {{username}},
+
+Your email has been verified successfully! You're all set to start tracking your personal processes.
+
+What you can do:
+- Tasks: Create and manage daily tasks
+- Goals: Set and track your goals
+- Habits: Build and maintain healthy habits
+- Analytics: View your progress and insights
+- Retrospective: Reflect on your monthly achievements
+
+Get started: {{app_url}}
+
+Need help? Check out our documentation or contact support.
+
+---
+Personal Process Tracker - Track your tasks, goals, and habits

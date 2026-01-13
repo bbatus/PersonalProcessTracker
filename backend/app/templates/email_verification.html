@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your Email</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <div style="background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
+        <h1 style="color: #4CAF50; text-align: center;">Welcome to Personal Process Tracker!</h1>
+        
+        <p>Hi <strong>{{username}}</strong>,</p>
+        
+        <p>Thank you for registering! Please verify your email address to activate your account.</p>
+        
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="{{verification_url}}" 
+               style="background-color: #4CAF50; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold;">
+                Verify Email Address
+            </a>
+        </div>
+        
+        <p>Or copy and paste this link into your browser:</p>
+        <p style="background-color: #fff; padding: 10px; border-radius: 5px; word-break: break-all;">
+            {{verification_url}}
+        </p>
+        
+        <p style="color: #666; font-size: 14px; margin-top: 30px;">
+            This link will expire in 24 hours. If you didn't create an account, please ignore this email.
+        </p>
+        
+        <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
+        
+        <p style="color: #999; font-size: 12px; text-align: center;">
+            Personal Process Tracker - Track your tasks, goals, and habits
+        </p>
+    </div>
+</body>
+</html>

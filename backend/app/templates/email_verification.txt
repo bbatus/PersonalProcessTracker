@@ -1,0 +1,13 @@
+Welcome to Personal Process Tracker!
+
+Hi {{username}},
+
+Thank you for registering! Please verify your email address to activate your account.
+
+Click the link below to verify your email:
+{{verification_url}}
+
+This link will expire in 24 hours. If you didn't create an account, please ignore this email.
+
+---
+Personal Process Tracker - Track your tasks, goals, and habits

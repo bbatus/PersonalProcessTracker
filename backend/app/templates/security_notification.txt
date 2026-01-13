@@ -1,0 +1,22 @@
+Security Notification
+
+Hi {{username}},
+
+We detected an important security event on your account:
+
+Event: {{event_type}}
+Time: {{timestamp}}
+Details: {{details}}
+
+Was this you?
+If you recognize this activity, you can safely ignore this email.
+
+Didn't recognize this?
+If you didn't perform this action, please secure your account immediately by resetting your password:
+
+{{reset_password_url}}
+
+For your security, we recommend using a strong, unique password and enabling two-factor authentication.
+
+---
+Personal Process Tracker - Track your tasks, goals, and habits
