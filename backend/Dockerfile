@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run database migrations on startup
-CMD alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+CMD alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}

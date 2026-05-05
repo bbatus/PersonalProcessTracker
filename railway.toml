@@ -1,0 +1,9 @@
+# Railway Monorepo Configuration
+# This file tells Railway how to deploy multiple services from one repo
+
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+numReplicas = 1
+restartPolicyType = "ON_FAILURE"
